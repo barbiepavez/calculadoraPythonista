@@ -17,7 +17,7 @@ def quotient(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta")
+    print("2. resta")
     print("3. Multiplicación")
     print("4. division")
     print("5. Cuociente")
