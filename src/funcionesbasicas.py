@@ -8,7 +8,7 @@ def subtract(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta") 
+    print("2. resta")
     
 
 def perform_operation(choice):
