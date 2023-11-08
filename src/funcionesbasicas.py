@@ -9,6 +9,8 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero."
     return a / b
 
 def quotient(a, b):
@@ -23,6 +25,7 @@ def power(a, b):
 def root(a, b):
     return a ** (1/b)
 
+    
     
 def menu():
     print("Select operation:")
