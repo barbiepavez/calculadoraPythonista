@@ -9,9 +9,13 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero."
     return a / b
 
 def quotient(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero."
     return a // b
     
 def remainder(a, b):
@@ -21,8 +25,11 @@ def power(a, b):
     return a ** b
 
 def root(a, b):
+    if b < 0:
+        return "Error: No se puede calcular la raíz cuadrada de un número negativo."
     return a ** (1/b)
 
+    
     
 def menu():
     print("Select operation:")
@@ -35,6 +42,15 @@ def menu():
     print("7. Potencia")
     print("8. raiz")
 
+    choice = int(input("Enter choice: "))
+    return choice
+
+    
+    
+
+
+    choice = int(input("Enter choice: "))
+    return choice
 
 def perform_operation(choice):
     if choice == 1:
@@ -85,3 +101,4 @@ def main():
 
 if __name__ == "__main__":
     main() 
+
