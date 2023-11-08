@@ -25,6 +25,8 @@ def power(a, b):
     return a ** b
 
 def root(a, b):
+    if b < 0:
+        return "Error: No se puede calcular la raíz cuadrada de un número negativo."
     return a ** (1/b)
 
     
@@ -40,12 +42,10 @@ def menu():
     print("7. Potencia")
     print("8. raiz")
 
-    
-    choice = int(input("Enter choice: "))
-    return choice
 
-    choice = int(input("Enter choice: "))
-    return choice
+    
+    
+
 
     choice = int(input("Enter choice: "))
     return choice
