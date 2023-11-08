@@ -9,11 +9,11 @@ def menu():
     print("9. Seno")
     print("10. Coseno")
 
-choice = int(input("Enter choice: "))
+    choice = int(input("Enter choice: "))
     return choice
 
 def perform_operation(choice):
-   elif choice == 9:
+   if choice == 9:
         a = float(input("Enter angle in radians: "))
         print("Result: ", sine(a))
    elif choice == 10:
