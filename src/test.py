@@ -1,5 +1,6 @@
-from trig_log import 
+from funcionesbasicas import add
 
 add(2, 4)
+
 
 
