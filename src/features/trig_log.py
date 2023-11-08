@@ -37,6 +37,8 @@ def perform_operation(choice):
    elif choice == 12:
         a = float(input("Enter number: "))
         b = float(input("Enter base: "))
+        print("Result: ", logarithm(a, b))
+
 
 def main():
     while True:
