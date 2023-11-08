@@ -31,12 +31,12 @@ def perform_operation(choice):
         b = float(input("Enter second number: "))
         print("Result: ", subtract(a, b))
 
-   elif choice == 3:
+     elif choice == 3:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", multiply(a, b))
 
-   elif choice == 4:
+     elif choice == 4:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", divide(a, b))
