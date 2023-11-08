@@ -5,10 +5,14 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta") 
+    Print("2. resta")
+    print("3. Multiplicación")
     
 
 def perform_operation(choice):
@@ -22,6 +26,11 @@ def perform_operation(choice):
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", subtract(a, b))
+
+   elif choice == 3:
+        a = float(input("Enter first number: "))
+        b = float(input("Enter second number: "))
+        print("Result: ", multiply(a, b))
 
 
 def main():
