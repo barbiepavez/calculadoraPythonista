@@ -20,6 +20,9 @@ def remainder(a, b):
 def power(a, b):
     return a ** b
 
+def root(a, b):
+    return a ** (1/b)
+
     
 def menu():
     print("Select operation:")
@@ -30,6 +33,7 @@ def menu():
     print("5. Cuociente")
     print("6. resto ")
     print("7. Potencia")
+    Print("8. raiz")
 
 def perform_operation(choice):
     if choice == 1:
@@ -67,6 +71,11 @@ def perform_operation(choice):
         a = float(input("Enter base: "))
         b = float(input("Enter exponent: "))
         print("Result: ", power(a, b))
+
+elif choice == 8:
+        a = float(input("Enter number: "))
+        b = float(input("Enter root: "))
+        print("Result: ", root(a, b))
 
 def main():
     while True:
