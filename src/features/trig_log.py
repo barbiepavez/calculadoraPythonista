@@ -22,7 +22,7 @@ def menu():
     return choice
 
 def perform_operation(choice):
-    elif choice == 9:
+    if choice == 9:
         a = float(input("Enter angle in radians: "))
         print("Result: ", sine(a))
 
@@ -45,5 +45,6 @@ def main():
         choice = menu()
         perform_operation(choice)
 
-if name == "main":
-   main()
+if __name__ == "__main__":
+    main() 
+
