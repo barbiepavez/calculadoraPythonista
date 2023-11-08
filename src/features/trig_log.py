@@ -18,23 +18,23 @@ def menu():
     print("11. Tangente")
     print("12. Logaritmo")
 
-choice = int(input("Enter choice: "))
+    choice = int(input("Enter choice: "))
     return choice
 
 def perform_operation(choice):
-   elif choice == 9:
+    if choice == 9:
         a = float(input("Enter angle in radians: "))
         print("Result: ", sine(a))
 
-   elif choice == 10:
+    elif choice == 10:
         a = float(input("Enter angle in radians: "))
         print("Result: ", cosine(a))
 
-   elif choice == 11:
+    elif choice == 11:
         a = float(input("Enter angle in radians: "))
         print("Result: ", tangent(a))
 
-   elif choice == 12:
+    elif choice == 12:
         a = float(input("Enter number: "))
         b = float(input("Enter base: "))
         print("Result: ", logarithm(a, b))
@@ -45,5 +45,6 @@ def main():
         choice = menu()
         perform_operation(choice)
 
-if name == "main":
-   main()
+if __name__ == "__main__":
+    main() 
+
