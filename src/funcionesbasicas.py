@@ -14,6 +14,8 @@ def divide(a, b):
     return a / b
 
 def quotient(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero."
     return a // b
     
 def remainder(a, b):
@@ -39,6 +41,9 @@ def menu():
     print("8. raiz")
 
     
+    choice = int(input("Enter choice: "))
+    return choice
+
     choice = int(input("Enter choice: "))
     return choice
 
