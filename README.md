@@ -27,3 +27,17 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 ## Contacto 
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi perfil de GitHub.
+
+## Calculadora
+
+Este es un proyecto de calculadora desarrollado en Python. La calculadora puede realizar una variedad de operaciones matemáticas, incluyendo operaciones básicas y avanzadas. Este README proporcionará una guía detallada sobre cómo configurar el proyecto, usarlo y contribuir al desarrollo.
+
+## Estructura del Proyecto
+
+El proyecto se organiza de la siguiente manera: En la carpeta Features encontrará el codigo llamado trig_log.py (código de operaciones matematicas avanzadas) y el código funcionesbasicas.py (código de operaciones básicas).
+
+
+
+
+
+
