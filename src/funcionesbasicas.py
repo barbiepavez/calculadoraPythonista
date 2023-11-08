@@ -27,13 +27,15 @@ def root(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta")
+
+    print("2. resta")
     print("3. Multiplicación")
     print("4. division")
     print("5. Cuociente")
     print("6. resto ")
     print("7. Potencia")
     Print("8. raiz")
+
 
 def perform_operation(choice):
     if choice == 1:
