@@ -8,8 +8,9 @@ class TestFuncionesBasicas(unittest.TestCase):
         self.assertEqual(divide(7, 2), 3.5 )
     def test_divide(self):
         self.assertEqual(divide(-10, 5), -2 )
-    def def test_divide(self):
-        self.assertEqual(divide(8, 0), Error )
+    def test_divide(self):
+            divide(5, 0)
+
 
     
 
