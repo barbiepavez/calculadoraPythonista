@@ -42,6 +42,8 @@ def menu():
     print("7. Potencia")
     print("8. raiz")
 
+    choice = int(input("Enter choice: "))
+    return choice
 
     
     
