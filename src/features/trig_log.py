@@ -24,5 +24,5 @@ def main():
         choice = menu()
         perform_operation(choice)
 
-if name == "main":
-   main()
+if __name__ == "__main__":
+    main() 
