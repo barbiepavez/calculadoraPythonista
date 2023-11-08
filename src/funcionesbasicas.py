@@ -17,6 +17,9 @@ def quotient(a, b):
 def remainder(a, b):
     return a % b
 
+def power(a, b):
+    return a ** b
+
     
 def menu():
     print("Select operation:")
@@ -26,6 +29,7 @@ def menu():
     print("4. division")
     print("5. Cuociente")
     print("6. resto ")
+    print("7. Potencia")
 
 def perform_operation(choice):
     if choice == 1:
@@ -58,6 +62,11 @@ def perform_operation(choice):
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", remainder(a, b))
+
+  elif choice == 7:
+        a = float(input("Enter base: "))
+        b = float(input("Enter exponent: "))
+        print("Result: ", power(a, b))
 
 def main():
     while True:
