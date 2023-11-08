@@ -14,6 +14,10 @@ def divide(a, b):
 def quotient(a, b):
     return a // b
     
+def remainder(a, b):
+    return a % b
+
+    
 def menu():
     print("Select operation:")
     print("1. Suma")
@@ -21,6 +25,7 @@ def menu():
     print("3. Multiplicación")
     print("4. division")
     print("5. Cuociente")
+    print("6. resto ")
 
 def perform_operation(choice):
     if choice == 1:
@@ -49,6 +54,10 @@ def perform_operation(choice):
         b = float(input("Enter second number: "))
         print("Result: ", quotient(a, b))
 
+  elif choice == 6:
+        a = float(input("Enter first number: "))
+        b = float(input("Enter second number: "))
+        print("Result: ", remainder(a, b))
 
 def main():
     while True:
