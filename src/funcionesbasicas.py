@@ -27,7 +27,6 @@ def root(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-
     print("2. resta")
     print("3. Multiplicación")
     print("4. division")
@@ -36,6 +35,8 @@ def menu():
     print("7. Potencia")
     print("8. raiz")
 
+    choice = int(input("Enter choice: "))
+    return choice
 
 def perform_operation(choice):
     if choice == 1:
