@@ -8,11 +8,15 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    return a / b
+    
 def menu():
     print("Select operation:")
     print("1. Suma")
     Print("2. resta")
     print("3. Multiplicación")
+    print("4. division")
     
 
 def perform_operation(choice):
@@ -31,6 +35,11 @@ def perform_operation(choice):
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", multiply(a, b))
+
+   elif choice == 4:
+        a = float(input("Enter first number: "))
+        b = float(input("Enter second number: "))
+        print("Result: ", divide(a, b))
 
 
 def main():
