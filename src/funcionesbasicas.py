@@ -14,10 +14,12 @@ def divide(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta")
+    print("2. resta")
     print("3. Multiplicación")
     print("4. division")
     
+    choice = int(input("Enter choice: "))
+    return choice
 
 def perform_operation(choice):
     if choice == 1:
@@ -31,12 +33,12 @@ def perform_operation(choice):
         b = float(input("Enter second number: "))
         print("Result: ", subtract(a, b))
 
-     elif choice == 3:
+    elif choice == 3:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", multiply(a, b))
 
-     elif choice == 4:
+    elif choice == 4:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", divide(a, b))
