@@ -10,6 +10,9 @@ def menu():
     print("1. Suma")
     print("2. Resta")
 
+choice = int(input("enter choice:"))
+return choice
+
 def perform_operation(choice):
     if choice == 1:
         a = float(input("Enter first number: "))
