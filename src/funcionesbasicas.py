@@ -31,6 +31,9 @@ def menu():
     print("6. resto ")
     print("7. Potencia")
 
+    choice = int(input("Enter choice: "))
+    return choice
+
 def perform_operation(choice):
     if choice == 1:
         a = float(input("Enter first number: "))
