@@ -11,9 +11,11 @@ def multiply(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-    Print("2. resta")
+    print("2. resta")
     print("3. Multiplicación")
     
+    choice = int(input("Enter choice: "))
+    return choice
 
 def perform_operation(choice):
     if choice == 1:
