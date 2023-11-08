@@ -27,7 +27,6 @@ def root(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-
     print("2. resta")
     print("3. Multiplicación")
     print("4. division")
