@@ -59,22 +59,22 @@ def perform_operation(choice):
         b = float(input("Enter second number: "))
         print("Result: ", divide(a, b))
 
-   elif choice == 5:
+    elif choice == 5:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", quotient(a, b))
 
-  elif choice == 6:
+    elif choice == 6:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", remainder(a, b))
 
-  elif choice == 7:
+    elif choice == 7:
         a = float(input("Enter base: "))
         b = float(input("Enter exponent: "))
         print("Result: ", power(a, b))
 
-elif choice == 8:
+    elif choice == 8:
         a = float(input("Enter number: "))
         b = float(input("Enter root: "))
         print("Result: ", root(a, b))
