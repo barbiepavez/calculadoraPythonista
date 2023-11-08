@@ -27,15 +27,16 @@ def root(a, b):
 def menu():
     print("Select operation:")
     print("1. Suma")
-
     print("2. resta")
     print("3. Multiplicación")
     print("4. division")
     print("5. Cuociente")
     print("6. resto ")
     print("7. Potencia")
-    Print("8. raiz")
-
+    print("8. raiz")
+    
+    choice = int(input("Enter choice: "))
+    return choice
 
 def perform_operation(choice):
     if choice == 1:
@@ -49,32 +50,32 @@ def perform_operation(choice):
         b = float(input("Enter second number: "))
         print("Result: ", subtract(a, b))
 
-   elif choice == 3:
+    elif choice == 3:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", multiply(a, b))
 
-   elif choice == 4:
+    elif choice == 4:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", divide(a, b))
 
-   elif choice == 5:
+    elif choice == 5:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", quotient(a, b))
 
-  elif choice == 6:
+    elif choice == 6:
         a = float(input("Enter first number: "))
         b = float(input("Enter second number: "))
         print("Result: ", remainder(a, b))
 
-  elif choice == 7:
+    elif choice == 7:
         a = float(input("Enter base: "))
         b = float(input("Enter exponent: "))
         print("Result: ", power(a, b))
 
-elif choice == 8:
+    elif choice == 8:
         a = float(input("Enter number: "))
         b = float(input("Enter root: "))
         print("Result: ", root(a, b))
