@@ -34,7 +34,7 @@ def menu():
     print("5. Cuociente")
     print("6. resto ")
     print("7. Potencia")
-    Print("8. raiz")
+    print("8. raiz")
 
 
 def perform_operation(choice):
