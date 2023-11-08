@@ -8,11 +8,15 @@ def cosine(a):
 
 def tangent(a):
     return math.tan(a)
+
+def logarithm(a, b):
+    return math.log(a, b)
   
 def menu():
     print("9. Seno")
     print("10. Coseno")
     print("11. Tangente")
+    print("12. Logaritmo")
 
 choice = int(input("Enter choice: "))
     return choice
@@ -29,6 +33,10 @@ def perform_operation(choice):
    elif choice == 11:
         a = float(input("Enter angle in radians: "))
         print("Result: ", tangent(a))
+
+   elif choice == 12:
+        a = float(input("Enter number: "))
+        b = float(input("Enter base: "))
 
 def main():
     while True:
