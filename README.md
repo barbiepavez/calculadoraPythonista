@@ -235,7 +235,7 @@ if _name_ == "_main_":
 
 ## Colaboración
 
-Bárbara Pavez crea repositorio y se lo envía a Eileen Saavedra, la segunta clona el repositorio en su git hub para colaborar en el proyecto de creación de la calculadora pythonista. Primero se crea el código operacionesbasicas.py , dónde cada una va creando ramas para cada operación ( Bárbara crea la rama Feature-suma y el Eileen crea rama Feature-resta) y así con todas las operaciones básicas. Luego Bárbara hizo el test de cada función creando un archivo en cada rama. Finalmente Eileen y Bárbara trabajan en conjunto para describir en el archivo readme.md de cómo ocupar la calculadora.
+Bárbara Pavez crea repositorio y se lo envía a Eileen Saavedra, la segunta clona el repositorio en su git hub para colaborar en el proyecto de creación de la calculadora pythonista. Primero se crea el código operacionesbasicas.py , dónde cada una va creando ramas para cada operación ( Bárbara crea la rama Feature-suma y el Eileen crea rama Feature-resta) y así con todas las operaciones básicas. Luego Barbara pavez crea la carpeta Features donde  eilieen savedra  crea el archivo tig_log.py dónde cada una va creando ramas para cada operación. Luego Bárbara hizo el test de cada función creando un archivo en cada rama. Finalmente Eileen y Bárbara trabajan en conjunto para describir en el archivo readme.md de cómo ocupar la calculadora.
 
 ## Contribucción
 
