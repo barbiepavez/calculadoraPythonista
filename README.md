@@ -21,8 +21,9 @@ Este es un proyecto de calculadora matemática desarrollado en Python. La calcul
    * Asegúrate de tener Python instalado en tu computadora.
    * Se mostrará un menú de operaciones y deberás seleccionar la opción deseada ingresando el número correspondiente.
    * Luego debes seguir las instrucciones del codigo
-     
-## Código operaciones básicas
+
+## Documentación Técnica
+### Código operaciones básicas
 
 A continuación se expone el codigo con las descripciones correspondientes a cada rama.
 ```python
@@ -135,8 +136,10 @@ if __name__ == "__main__":
 
  
 
-2. Datos de entrada y salida:
+### Datos de entrada y salida:
 
+ Funciones basicas:
+ 
    - Suma: Ingresa dos números y la calculadora mostrará el resultado de la suma.
    - Resta: Ingresa dos números y la calculadora mostrará el resultado de la resta.
    - Multiplicación: Ingresa dos números y la calculadora mostrará el resultado de la multiplicación.
@@ -146,7 +149,7 @@ if __name__ == "__main__":
    - Potencia: Ingresa dos números y la calculadora mostrará el resultado de elevar el primer número a la potencia del segundo número.
    - Raíz: Ingresa un número y la calculadora mostrará la raíz cuadrada de ese número. si b es negativo se mostrará un mensaje de error.
 
-## Código operaciones avanzadas
+### Código operaciones avanzadas
 A continuación se proporcioná el código para operaciones avanzadas:
 ```python
 # Importa la librería math
@@ -206,9 +209,9 @@ def main():
 if _name_ == "_main_":
     main()  # Inicia la ejecución del programa llamando a la función principal 'main'
 ```
-## Datos de entrada y salida.
+### Datos de entrada y salida.
 
-3. Funciones trigonométricas y logaritmos
+ Funciones trigonométricas y logaritmos:
 
    - Seno: Ingresa un ángulo en radianes y la calculadora mostrará el seno de ese ángulo.
    - Coseno: Ingresa un ángulo en radianes y la calculadora mostrará el coseno de ese ángulo.
