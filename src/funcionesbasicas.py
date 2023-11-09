@@ -88,9 +88,9 @@ def perform_operation(choice):
         print("Result: ", power(a, b))
 
     elif choice == 8:
-        a = float(input("Enter number: "))
-        b = float(input("Enter root: "))
-        print("Result: ", root(a, b))
+        a = float(input("Enter number: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter root: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", root(a, b)) # Calcula la raiz del numero 
 
 def main():
     while True:
