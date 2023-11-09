@@ -83,9 +83,10 @@ def perform_operation(choice):
 
 
     elif choice == 6:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", remainder(a, b))
+        a = float(input("Enter first number: "))# Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: "))# Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", remainder(a, b)) # Calcula el resto  y muestra el resultado
+
 
     elif choice == 7:
         a = float(input("Enter base: "))
