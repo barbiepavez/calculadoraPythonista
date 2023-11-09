@@ -1,8 +1,7 @@
 # Calculadora Pythonista
 
-## Descripción
-
-Este proyecto consiste en el desarrollo de una calculadora con operaciones básicas, funciones trigonométricas y logaritmos utilizando un flujo de trabajo de Git con las ramas Main, Hotfix, Release, Develop y Features.
+## Introducción
+Este es un proyecto de calculadora matemática desarrollado en Python. La calculadora ofrece una variedad de funciones, desde operaciones básicas hasta funciones trigonométricas y logaritmos. Este README proporcionará una guía detallada sobre cómo utilizar la calculadora y documentación técnica para cada función.
 
 ## Requisitos
 
@@ -19,9 +18,10 @@ Este proyecto consiste en el desarrollo de una calculadora con operaciones bási
 
 1. Ejecución
 
-   - Asegúrate de tener Python instalado en tu computadora.
-   - Se mostrará un menú de operaciones y deberás seleccionar la opción deseada ingresando el número correspondiente.
-   - 
+   * Asegúrate de tener Python instalado en tu computadora.
+   * Se mostrará un menú de operaciones y deberás seleccionar la opción deseada ingresando el número correspondiente.
+   * Luego debes seguir las instrucciones del codigo
+     
 ## Código operaciones básicas
 
 A continuación se expone el codigo con las descripciones correspondientes a cada rama.
@@ -141,10 +141,10 @@ if __name__ == "__main__":
    - Resta: Ingresa dos números y la calculadora mostrará el resultado de la resta.
    - Multiplicación: Ingresa dos números y la calculadora mostrará el resultado de la multiplicación.
    - División: Ingresa dos números y la calculadora mostrará el resultado de la división. Si el divisor es cero, se mostrará un mensaje de error.
-   - Cociente: Ingresa dos números y la calculadora mostrará el cociente de la división entera.
+   - Cociente: Ingresa dos números y la calculadora mostrará el cociente de la división entera.Si el divisor es cero, se mostrará un mensaje de error.
    - Resto: Ingresa dos números y la calculadora mostrará el resto de la división entera.
    - Potencia: Ingresa dos números y la calculadora mostrará el resultado de elevar el primer número a la potencia del segundo número.
-   - Raíz: Ingresa un número y la calculadora mostrará la raíz cuadrada de ese número.
+   - Raíz: Ingresa un número y la calculadora mostrará la raíz cuadrada de ese número. si b es negativo se mostrará un mensaje de error.
 
 ## Código operaciones avanzadas
 A continuación se proporcioná el código para operaciones avanzadas:
