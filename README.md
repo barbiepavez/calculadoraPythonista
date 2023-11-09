@@ -28,13 +28,35 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi perfil de GitHub.
 
-## Calculadora
+## Uso de la Calculadora
 
-Este es un proyecto de calculadora desarrollado en Python. La calculadora puede realizar una variedad de operaciones matemáticas, incluyendo operaciones básicas y avanzadas. Este README proporcionará una guía detallada sobre cómo configurar el proyecto, usarlo y contribuir al desarrollo.
+1. Ejecución
 
-## Estructura del Proyecto
+   - Asegúrate de tener Python instalado en tu computadora.
+   - Abre una terminal y navega hasta la carpeta donde se encuentra el archivo `calculadora.py`.
+   - Se mostrará un menú de operaciones y deberás seleccionar la opción deseada ingresando el número correspondiente.
 
-El proyecto se organiza de la siguiente manera: En la carpeta Features encontrará el codigo llamado trig_log.py (código de operaciones matematicas avanzadas) y el código funcionesbasicas.py (código de operaciones básicas).
+2. Operaciones básicas
+
+   - Suma: Ingresa dos números y la calculadora mostrará el resultado de la suma.
+   - Resta: Ingresa dos números y la calculadora mostrará el resultado de la resta.
+   - Multiplicación: Ingresa dos números y la calculadora mostrará el resultado de la multiplicación.
+   - División: Ingresa dos números y la calculadora mostrará el resultado de la división. Si el divisor es cero, se mostrará un mensaje de error.
+   - Cociente: Ingresa dos números y la calculadora mostrará el cociente de la división entera.
+   - Resto: Ingresa dos números y la calculadora mostrará el resto de la división entera.
+   - Potencia: Ingresa dos números y la calculadora mostrará el resultado de elevar el primer número a la potencia del segundo número.
+   - Raíz: Ingresa un número y la calculadora mostrará la raíz cuadrada de ese número.
+
+3. Funciones trigonométricas y logaritmos
+
+   - Seno: Ingresa un ángulo en radianes y la calculadora mostrará el seno de ese ángulo.
+   - Coseno: Ingresa un ángulo en radianes y la calculadora mostrará el coseno de ese ángulo.
+   - Tangente: Ingresa un ángulo en radianes y la calculadora mostrará la tangente de ese ángulo.
+   - Logaritmo: Ingresa un número y la base del logaritmo, y la calculadora mostrará el logaritmo de ese número en esa base.
+
+
+
+
 
 
 
