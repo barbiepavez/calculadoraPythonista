@@ -65,9 +65,10 @@ def perform_operation(choice):
         print("Result: ", divide(a, b))
 
     elif choice == 5:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", quotient(a, b))
+        a = float(input("Enter first number: "))  # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", quotient(a, b)) # Realiza el cuociente de los dos números y muestra el resultado
+
 
     elif choice == 6:
         a = float(input("Enter first number: "))
