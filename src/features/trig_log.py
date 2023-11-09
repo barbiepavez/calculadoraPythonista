@@ -3,7 +3,7 @@ import  math
 # Función que calcula el seno de un numero
 def sine(a):
     return math.sin(a)
-    
+# Función que calcula el coseno de un numero    
 def cosine(a):
     return math.cos(a)
 
@@ -33,8 +33,8 @@ def perform_operation(choice):
         print("Result: ", sine(a)) # calcula el seno del numero
 
     elif choice == 10:
-        a = float(input("Enter angle in radians: "))
-        print("Result: ", cosine(a))
+        a = float(input("Enter angle in radians: ")) # Solicita al usuario que ingrese un angulo en radianes
+        print("Result: ", cosine(a)) # calcula el coseno del numero
 
     elif choice == 11:
         a = float(input("Enter angle in radians: "))
