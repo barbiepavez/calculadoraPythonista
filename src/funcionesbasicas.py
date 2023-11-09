@@ -42,9 +42,10 @@ def perform_operation(choice):
         print("Result: ", multiply(a, b))
 
     elif choice == 4:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", divide(a, b))
+        a = float(input("Enter first number: "))  # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", divide(a, b)) # Realiza la division  de los dos números y muestra el resultado
+
 
 
 def main():
