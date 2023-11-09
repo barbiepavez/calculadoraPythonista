@@ -1,29 +1,32 @@
 import math
+
+# Función que realiza una suma de dos números
 def add(a, b):
     return a + b
 
+# Función que realiza una resta de dos números
 def subtract(a, b):
     return a - b
-
+# Función que realiza la multiplicación  de dos números
 def multiply(a, b):
     return a * b
-
+# Función que realiza la division  de dos números
 def divide(a, b):
     if b == 0:
         return "Error: No se puede dividir por cero."
     return a / b
-
+# Función que realiza el cuocinte de dos números
 def quotient(a, b):
     if b == 0:
         return "Error: No se puede dividir por cero."
     return a // b
-    
+# Función que calcula el resto
 def remainder(a, b):
     return a % b
-
+# Función que calcula la potencia  de dos números
 def power(a, b):
     return a ** b
-
+# Función que calcula la raiz
 def root(a, b):
     if b < 0:
         return "Error: No se puede calcular la raíz cuadrada de un número negativo."
@@ -31,6 +34,7 @@ def root(a, b):
 
     
     
+# Función que muestra un menú de operaciones y devuelve la elección del usuario
 def menu():
     print("Select operation:")
     print("1. Suma")
@@ -43,60 +47,67 @@ def menu():
     print("8. raiz")
 
 
-    
-    
-
-
-    choice = int(input("Enter choice: "))
+    choice = int(input("Enter choice: "))  # Solicita al usuario que ingrese la elección y la convierte a un entero
     return choice
 
+# Función que realiza la operación seleccionada por el usuario
 def perform_operation(choice):
     if choice == 1:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", add(a, b))
+
+        a = float(input("Enter first number: "))  # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: "))  # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", add(a, b))  # Realiza la suma de los dos números y muestra el resultado
+        
 
 def perform_operation(choice):
     if choice == 2:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", subtract(a, b))
+        a = float(input("Enter first number: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", subtract(a, b)) # Realiza la resta de los dos números y muestra el resultado
 
     elif choice == 3:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", multiply(a, b))
+        a = float(input("Enter first number: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", multiply(a, b)) # Realiza la multipliccion de los dos números y muestra el resultado
 
     elif choice == 4:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", divide(a, b))
+        a = float(input("Enter first number: "))  # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", divide(a, b)) # Realiza la division  de los dos números y muestra el resultado
+
 
     elif choice == 5:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", quotient(a, b))
+        a = float(input("Enter first number: "))  # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", quotient(a, b)) # Realiza el cuociente de los dos números y muestra el resultado
+
 
     elif choice == 6:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", remainder(a, b))
+        a = float(input("Enter first number: "))# Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: "))# Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", remainder(a, b)) # Calcula el resto  y muestra el resultado
+
 
     elif choice == 7:
-        a = float(input("Enter base: "))
-        b = float(input("Enter exponent: "))
-        print("Result: ", power(a, b))
+        a = float(input("Enter base: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter exponent: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", power(a, b))  # Realiza la potencia de los dos números y muestra el resultado
+
 
     elif choice == 8:
-        a = float(input("Enter number: "))
-        b = float(input("Enter root: "))
-        print("Result: ", root(a, b))
+        a = float(input("Enter number: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter root: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", root(a, b)) # Calcula la raiz del numero 
+
+
+# Función principal del programa
 
 def main():
     while True:
-        choice = menu()
-        perform_operation(choice)
+        choice = menu()  # Muestra el menú y obtiene la elección del usuario
+        perform_operation(choice)  # Realiza la operación seleccionada por el usuario
 
 if __name__ == "__main__":
-    main() 
+    main()  # Inicia la ejecución del programa llamando a la función principal 'main'
+
 
