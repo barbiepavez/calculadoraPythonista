@@ -25,7 +25,7 @@ Este proyecto consiste en el desarrollo de una calculadora con operaciones bási
 ## Código operaciones básicas
 
 A continuación se expone el codigo con las descripciones correspondientes a cada rama.
-import math
+
 
  
 
