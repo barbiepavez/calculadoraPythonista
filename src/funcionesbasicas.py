@@ -67,9 +67,10 @@ def perform_operation(choice):
         print("Result: ", remainder(a, b))
 
     elif choice == 7:
-        a = float(input("Enter base: "))
-        b = float(input("Enter exponent: "))
-        print("Result: ", power(a, b))
+        a = float(input("Enter base: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter exponent: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", power(a, b))  # Realiza la potencia de los dos números y muestra el resultado
+
 
 def main():
     while True:
