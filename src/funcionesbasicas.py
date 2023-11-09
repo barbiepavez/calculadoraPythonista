@@ -66,9 +66,9 @@ def perform_operation(choice):
         print("Result: ", subtract(a, b)) # Realiza la resta de los dos números y muestra el resultado
 
     elif choice == 3:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
-        print("Result: ", multiply(a, b))
+        a = float(input("Enter first number: ")) # Solicita al usuario que ingrese el primer número y lo convierte a un número de punto flotante
+        b = float(input("Enter second number: ")) # Solicita al usuario que ingrese el segundo número y lo convierte a un número de punto flotante
+        print("Result: ", multiply(a, b)) # Realiza la multipliccion de los dos números y muestra el resultado
 
     elif choice == 4:
         a = float(input("Enter first number: "))
