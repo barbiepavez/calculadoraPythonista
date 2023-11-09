@@ -233,6 +233,9 @@ if _name_ == "_main_":
    - Tangente: Ingresa un ángulo en radianes y la calculadora mostrará la tangente de ese ángulo.
    - Logaritmo: Ingresa un número y la base del logaritmo, y la calculadora mostrará el logaritmo de ese número en esa base.
 
+## Colaboración
+
+Bárbara Pavez crea repositorio y se lo envía a Eileen Saavedra, la segunta clona el repositorio en su git hub para colaborar en el proyecto de creación de la calculadora pythonista. Primero se crea el código operacionesbasicas.py , dónde cada una va creando ramas para cada operación ( Bárbara crea la rama Feature-suma y el Eileen crea rama Feature-resta) y así con todas las operaciones básicas. Luego Bárbara hizo el test de cada función creando un archivo en cada rama. Finalmente Eileen y Bárbara trabajan en conjunto para describir en el archivo readme.md cómo ocupar la calculadora.
 
 ## Contribucción
 
