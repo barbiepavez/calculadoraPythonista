@@ -6,7 +6,7 @@ def sine(a):
 # Función que calcula el coseno de un numero    
 def cosine(a):
     return math.cos(a)
-
+# Función que calcula la tangente de un numero
 def tangent(a):
     return math.tan(a)
 
@@ -37,8 +37,8 @@ def perform_operation(choice):
         print("Result: ", cosine(a)) # calcula el coseno del numero
 
     elif choice == 11:
-        a = float(input("Enter angle in radians: "))
-        print("Result: ", tangent(a))
+        a = float(input("Enter angle in radians: "))# Solicita al usuario que ingrese un angulo en radianes
+        print("Result: ", tangent(a)) # calcula el seno del numero
 
     elif choice == 12:
         a = float(input("Enter number: "))
