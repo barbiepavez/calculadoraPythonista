@@ -1,8 +1,7 @@
 # Calculadora Pythonista
 
-## Descripción
-
-Este proyecto consiste en el desarrollo de una calculadora con operaciones básicas, funciones trigonométricas y logaritmos utilizando un flujo de trabajo de Git con las ramas Main, Hotfix, Release, Develop y Features.
+## Introduccion 
+Este es un proyecto de calculadora matemática desarrollado en Python. La calculadora ofrece una variedad de funciones, desde operaciones básicas hasta funciones trigonométricas y logaritmos  utilizando un flujo de trabajo de Git con las ramas Main, Hotfix, Release, Develop y Features. Este README proporcionará una guía detallada sobre cómo utilizar la calculadora y documentación técnica para cada función.
 
 ## Requisitos
 
