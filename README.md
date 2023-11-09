@@ -16,11 +16,26 @@ Este es un proyecto de calculadora matemática desarrollado en Python. La calcul
 
 ## Uso de la Calculadora
 
-1. Ejecución
+Para comenzar a utilizar la calculadora, sigue estos pasos:
 
-   * Asegúrate de tener Python instalado en tu computadora.
-   * Se mostrará un menú de operaciones y deberás seleccionar la opción deseada ingresando el número correspondiente.
-   * Luego debes seguir las instrucciones del codigo
+1. **Configuración del Entorno:**
+   - Asegúrate de tener Python instalado en tu sistema.
+   - Clona el repositorio en tu máquina local.
+
+2. **Ejecución:**
+   - Abre una terminal y navega al directorio del proyecto.
+   - Ejecuta el script principal con el siguiente comando:
+     ```bash
+     python main.py
+     ```
+
+3. **Importación de Funciones:**
+   - Puedes importar funciones específicas en tu propio script. Por ejemplo, para usar la función de suma:
+     ```python
+     from src.basic_operations import add
+     resultado = add(5, 3)
+     print("La suma es:", resultado)
+     ```
 
 ## Documentación Técnica
 ### Código operaciones básicas
