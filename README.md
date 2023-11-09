@@ -15,19 +15,6 @@ Este proyecto consiste en el desarrollo de una calculadora con operaciones bási
 * Abre el archivo en tu entorno de desarrollo.
 * Utiliza los métodos disponibles para realizar cálculos.
 
-## Contribucción
-
-Si deseas contribuir a este proyecto, sigue los siguientes pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una rama con el nombre descriptivo de tu contribución.
-3. Realiza tus cambios y pruebas.
-4. Envía un pull request explicando tus cambios.
-
-## Contacto 
-
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi perfil de GitHub.
-
 ## Uso de la Calculadora
 
 1. Ejecución
@@ -55,13 +42,16 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi 
    - Logaritmo: Ingresa un número y la base del logaritmo, y la calculadora mostrará el logaritmo de ese número en esa base.
 
 
+## Contribucción
 
+Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
+1. Haz un fork del repositorio.
+2. Crea una rama con el nombre descriptivo de tu contribución.
+3. Realiza tus cambios y pruebas.
+4. Envía un pull request explicando tus cambios.
 
+## Contacto 
 
-
-
-
-
-
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi perfil de GitHub.
 
