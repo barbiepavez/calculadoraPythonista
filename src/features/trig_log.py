@@ -8,7 +8,7 @@ def cosine(a):
 
 def tangent(a):
     return math.tan(a)
-
+# Función que calcula logaritmo de un numero de base b 
 def logarithm(a, b):
     return math.log(a, b)
   
@@ -36,9 +36,9 @@ def perform_operation(choice):
         print("Result: ", tangent(a))
 
     elif choice == 12:
-        a = float(input("Enter number: "))
-        b = float(input("Enter base: "))
-        print("Result: ", logarithm(a, b))
+        a = float(input("Enter number: ")) # Solicita al usuario que ingrese un nuemero
+        b = float(input("Enter base: ")) # Solicita al usuario que ingrese un numero para la bese 
+        print("Result: ", logarithm(a, b)) # calcula el logaritmo 
 
 
 def main():
