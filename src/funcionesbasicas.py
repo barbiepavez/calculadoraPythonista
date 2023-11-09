@@ -4,29 +4,29 @@ import math
 def add(a, b):
     return a + b
 
-
+# Función que realiza una resta de dos números
 def subtract(a, b):
     return a - b
-
+# Función que realiza la multiplicación  de dos números
 def multiply(a, b):
     return a * b
-
+# Función que realiza la division  de dos números
 def divide(a, b):
     if b == 0:
         return "Error: No se puede dividir por cero."
     return a / b
-
+# Función que realiza el cuocinte de dos números
 def quotient(a, b):
     if b == 0:
         return "Error: No se puede dividir por cero."
     return a // b
-    
+# Función que calcula el resto
 def remainder(a, b):
     return a % b
-
+# Función que calcula la potencia  de dos números
 def power(a, b):
     return a ** b
-
+# Función que calcula la raiz
 def root(a, b):
     if b < 0:
         return "Error: No se puede calcular la raíz cuadrada de un número negativo."
